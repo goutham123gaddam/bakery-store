@@ -14,6 +14,9 @@ export default class Checkout extends React.Component {
                         items={this.props.items} 
                         deleteElementToCart={this.props.deleteElementToCart}
                     />
+                    <button class="Check" type="button" onClick={() => {this.props.items.forEach((item) => {
+                        if(item.count > 0)console.log(item.name);
+                    })}}>Checkout</button>
                 </div>
             </div>
         )

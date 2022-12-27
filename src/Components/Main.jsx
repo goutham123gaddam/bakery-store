@@ -16,7 +16,7 @@ export default class Main extends React.Component {
                             <Link to="/" class="Company">{Strings.Header.Company}</Link>
                             <Link to="checkout" class="Cart-Button">
                                 <img src="./carticon.png" height="30px" width = "30px" />
-                                {this.props.count > 0? (<div class="Count">{this.props.Count}</div>):""}
+                                {this.props.count > 0? (<div class="Count">{this.props.count}</div>):""}
                             </Link>
                         </div>
                         <HeaderList />

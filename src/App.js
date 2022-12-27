@@ -11,7 +11,7 @@ class App extends React.Component {
     super();
     this.state = {items: [], count: 0};
     var key = 0;
-    Strings.Body.Items.forEach((Object) => {
+    Strings.Body.Items.map((Object) => {
       this.state.items.push({
         id: key++, name: Object.name, cost: Object.cost, count : 0
       })
@@ -21,7 +21,8 @@ class App extends React.Component {
   addElementToCart(id) {
     this.state.items.forEach((item) => {
       if(item.id == id) {
-        item.count++; this.setState((state) => {
+        item.count++; 
+        this.setState((state) => {
           return {count: state.count+1}
         });
       }
@@ -30,10 +31,24 @@ class App extends React.Component {
   } 
 
   deleteElementToCart(id) {
-    this.state.items.forEach((item) => {
+    var newArray = this.state.items.map((item) => {
       if(item.id == id) {
-        item.count--; this.state.count--;
+        
+        return {
+          id: item.id, name: item.name, cost: item.cost, count : item.count-1
+        };
+      }else {
+        console.log("Hello")
+        return {
+          id: item.id, name: item.name, cost: item.cost, count : item.count
+        };
       }
+    })
+    this.setState((state) => {
+      return {count: state.count-1}
+    });
+    this.setState((state) => {
+      return {items: newArray};
     })
   }
 

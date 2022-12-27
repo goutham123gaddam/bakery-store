@@ -9,7 +9,7 @@ export default class CheckoutItem extends React.Component {
                 <div class="ItemName">{this.props.item.name}</div>
                 <div class="ItemCost">${this.props.item.cost}</div>
                 <div class="ItemCount">{this.props.item.count} items</div>
-                <button type="button" class="DeleteButton">{Strings.Checkout.Delete}</button>
+                {/* <button type="button" class="DeleteButton" onClick={() => {this.props.deleteElementToCart(this.props.id)}}>{Strings.Checkout.Delete}</button> */}
             </div>
         )
     }
