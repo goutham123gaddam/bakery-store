@@ -1,0 +1,10 @@
+@media (min-width: 800px) {
+    .Body-List {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.Body-List {
+    margin: 0px 10px;
+}

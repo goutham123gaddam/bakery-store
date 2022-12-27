@@ -1,0 +1,37 @@
+{
+    "Header" : {
+        "Title" : {
+            "Products" : "Products",
+            "CakeClass" : "Cake Class",
+            "Recipes" : "Recipes"
+        },
+        "Description" : {
+            "Products" : "Products Description",
+            "CakeClass" : "Cake Class Description",
+            "Recipes" : "Recipes Description"
+        },
+        "Cart" : "Go To Cart",
+        "Company" : "GAN Studio"
+    },
+    "Body" : {
+        "Title" : "NEW PRODUCTS",
+        "AddToCart" : "ADD TO CART",
+        "Items" : [
+            {"image": "./Products/BlackForest.png",
+            "name" : "Black Forest",
+            "cost" : "38.00"},
+            {"image": "./Products/DessertCake.png",
+            "name" : "Desert Cake",
+            "cost" : "36.00"},
+            {"image": "./Products/RedVelvet.png",
+            "name" : "Red Velvet",
+            "cost" : "39.00"},
+            {"image": "./Products/ChocoTruffle.png",
+            "name" : "Choco Truffle",
+            "cost" : "40.00"}
+        ]
+    },
+    "Checkout" : {
+        "Delete" : "Delete"
+    }
+}

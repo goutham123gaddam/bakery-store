@@ -1,0 +1,31 @@
+.BodyItem {
+    text-align: center;
+    margin: 0px 2px 35px 2px;
+    border: 2px solid #ecbcb4;
+    border-radius: 5px;
+}
+
+
+.Product-Image{
+    height: 100%;
+    width: 100%;
+}
+
+.Name {
+    font-weight: 500;
+}
+
+.Cost {
+    margin: 15px 0px;
+}
+
+
+.Button {
+    color: #e97c6a;
+    background-color: white;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    border-color: #ecbcb4;
+    font-weight: 600;
+}

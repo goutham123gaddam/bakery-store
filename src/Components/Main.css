@@ -1,0 +1,69 @@
+.Main-Content {
+    margin : 10px;
+}
+
+.Header {
+    height: 100px;
+    padding: 20px 100px 20px 100px;
+    background-color: #ecbcb4;
+}
+
+@media (max-width: 600px) {
+    .Header {
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+.Navigator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Company {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: cursive;
+    border: 4px solid;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.Cart-Button {
+    text-decoration: none;
+    display: flex;
+}
+
+.Count {
+    align-items: center;
+    padding: 0px 4px;
+    margin: 8px 2px;
+    display: flex;
+    background-color: yellow;
+    border-radius: 200px;
+}
+
+.Body-Title {
+    text-align: center;
+    position: relative;
+    top: 140px;
+    font-weight: 700;
+    font-size: large;
+}
+
+@media (max-width: 800px) {
+    .Body-Title {
+        top: 400px;
+    }
+}
+
+.Body {
+    position: relative;
+    top: 190px;
+}
+
+@media (max-width: 800px) {
+    .Body {
+        top: 500px;
+    }
+}

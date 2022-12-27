@@ -1,0 +1,31 @@
+.Item-Container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Item-Image {
+    padding: 10px;
+    height: 60px;
+    width: 60px
+}
+
+.Icon-Wrapper {
+    padding: 10px;
+}
+
+.Content-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Title {
+    font-weight: 900;
+    font-family: cursive;
+    font-size: large;
+}
+
+.Description {
+    font-size: smaller;
+    font-weight: 400
+}
