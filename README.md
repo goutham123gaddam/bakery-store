@@ -1,3 +1,8 @@
+Make sure git, node, installed in your pc.
+Go to bakery-store directory and run npm i
+Then run npm start, this will take you to the website.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
