@@ -1,4 +1,16 @@
 .Check {
     position: relative;
     top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.style-button1 {
+    background: yellow;
+    border-radius: 6px;
+}
+
+.style-button2 {
+    background: #ff3434;
+    border-radius: 6px;
 }

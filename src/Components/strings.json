@@ -6,9 +6,9 @@
             "Recipes" : "Recipes"
         },
         "Description" : {
-            "Products" : "Products Description",
-            "CakeClass" : "Cake Class Description",
-            "Recipes" : "Recipes Description"
+            "Products" : "All products",
+            "CakeClass" : "Cakes and desserts",
+            "Recipes" : "Get all recipes"
         },
         "Cart" : "Go To Cart",
         "Company" : "GAN Studio"

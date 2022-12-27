@@ -27,25 +27,16 @@ class App extends React.Component {
         });
       }
     })
-    console.log(this.state);
   } 
 
-  deleteElementToCart(id) {
+  deleteElementToCart() {
     var newArray = this.state.items.map((item) => {
-      if(item.id == id) {
-        
-        return {
-          id: item.id, name: item.name, cost: item.cost, count : item.count-1
-        };
-      }else {
-        console.log("Hello")
-        return {
-          id: item.id, name: item.name, cost: item.cost, count : item.count
-        };
-      }
+      return {
+        id: item.id, name: item.name, cost: item.cost, count : 0
+      };
     })
     this.setState((state) => {
-      return {count: state.count-1}
+      return {count: 0}
     });
     this.setState((state) => {
       return {items: newArray};
